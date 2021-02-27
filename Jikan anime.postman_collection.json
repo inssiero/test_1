@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "00c846c9-5313-4883-8220-bcb476d13bb5",
+		"name": "Jikan anime",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.jikan.moe/v3/anime/32995/characters_staff",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jikan",
+						"moe"
+					],
+					"path": [
+						"v3",
+						"anime",
+						"32995",
+						"characters_staff"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.jikan.moe/v3/manga/21/pictures",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jikan",
+						"moe"
+					],
+					"path": [
+						"v3",
+						"manga",
+						"21",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.jikan.moe/v3/search/anime?q=Attack on Titan&page=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"jikan",
+						"moe"
+					],
+					"path": [
+						"v3",
+						"search",
+						"anime"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Attack on Titan"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
